@@ -12,7 +12,7 @@ const FloatingBuyNowButton = () => {
   return (
     <button
       onClick={handleClick}
-      className="fixed bottom-16 right-4 z-60 p-3 bg-green-500 rounded-full shadow-lg hover:bg-green-600 transition-colors"
+      className="fixed bottom-1 right-4 z-50 p-3 bg-blue-500 rounded-full shadow-lg hover:bg-blue-600 transition-colors"
       aria-label="Buy Now"
     >
       <svg

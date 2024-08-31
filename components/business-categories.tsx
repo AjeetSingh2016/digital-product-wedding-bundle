@@ -1,15 +1,15 @@
 import Image from "next/image";
 // import Logo01 from "@/public/images/logo-01.svg";
-import Logo01 from "../assets/logo-01.png";
-import Logo02 from "../assets/logo-02.png";
+import Logo01 from "@/public/assets/logo-01.png";
+import Logo02 from "@/public/assets/logo-02.png";
 // import Logo02 from "@/public/images/logo-02.svg";
-import Logo03 from "../assets/logo-03.png";
-import Logo04 from "../assets/logo-04.png";
-import Logo05 from "../assets/logo-05.png";
-import Logo06 from "../assets/logo-06.png";
-import Logo07 from "../assets/logo-07.png";
-import Logo08 from "../assets/logo-08.png";
-import Logo09 from "../assets/logo-09.png";
+import Logo03 from "@/public/assets/logo-03.png";
+import Logo04 from "@/public/assets/logo-04.png";
+import Logo05 from "@/public/assets/logo-05.png";
+import Logo06 from "@/public/assets/logo-06.png";
+import Logo07 from "@/public/assets/logo-07.png";
+import Logo08 from "@/public/assets/logo-08.png";
+import Logo09 from "@/public/assets/logo-09.png";
 
 export default function BusinessCategories() {
   return (

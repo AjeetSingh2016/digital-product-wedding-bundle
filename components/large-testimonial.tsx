@@ -1,5 +1,5 @@
 import Image from "next/image";
-import TestimonialImg from "../assets/satisfaction.webp";
+import TestimonialImg from "@/public/assets/satisfaction.webp";
 
 
 export default function LargeTestimonial() {

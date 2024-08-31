@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import exampleImage from "../assets/lady.webp"; // Adjust the path to your image
+import exampleImage from "@/public/assets/lady.webp"; // Adjust the path to your image
 const Features = () => {
   return (
     <div className="flex-col justify-center ">
