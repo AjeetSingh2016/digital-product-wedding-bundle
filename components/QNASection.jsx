@@ -10,6 +10,10 @@ const QNASection = () => {
         "The bundle is compatible with Lightroom, Photoshop, Premiere Pro, After Effects, Final Cut Pro, Da Vinci Resolve, Sony Vegas, Capture One, Laminar, and Filmora.",
     },
     {
+      "question": "How will I get the delivery of my order?",
+      "answer": "You will receive the google drive link instantly after the payment is completed."
+    },    
+    {
       question: "How do I access the resources after purchase?",
       answer:
         "You will receive an instant download link via email immediately after your purchase, providing lifetime access to the bundle.",

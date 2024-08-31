@@ -4,8 +4,8 @@
 import React from 'react';
 
 const FloatingWhatsAppButton = () => {
-  const phoneNumber = "6392554579"; // Replace with your phone number
-  const message = "Hello! I'm interested in learning more about your services."; // Predefined message
+  const phoneNumber = "8765412933"; // Replace with your phone number
+  const message = "Hello! I'm interested in learning more about your Ultimate Wedding Photography & Videography Bundle"; // Predefined message
 
   return (
     <a

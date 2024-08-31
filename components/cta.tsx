@@ -57,17 +57,17 @@ export default function Cta() {
                   data-aos="zoom-y-out"
                   data-aos-delay={450}
                 >
-                  <a
-                    className="p-4 px-10 btn group mt-5 mb-4 w-full bg-gradient-to-t from-blue-600 to-blue-500 bg-[length:100%_100%] bg-[bottom] text-white rounded shadow hover:bg-[length:100%_150%] sm:mb-0 sm:w-auto"
-                    href="#0"
-                  >
-                    <span className="relative inline-flex items-center text-lg">
-                      ⚡Order Now At ₹199{" "}
-                      <span className="ml-1 tracking-normal text-blue-300 transition-transform group-hover:translate-x-0.5">
-                        -&gt;
-                      </span>
-                    </span>
-                  </a>
+<a
+        className="p-4 px-10 btn group mt-5 mb-4 bg-gradient-to-t from-blue-600 to-blue-500 bg-[length:100%_100%] bg-[bottom] text-white rounded shadow-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl hover:bg-gradient-to-r from-blue-500 to-purple-600 sm:mb-0 animate-pulse"
+        href="#0"
+      >
+        <span className="relative inline-flex items-center text-lg">
+          ⚡Order Now At ₹199{" "}
+          <span className="ml-1 tracking-normal text-blue-300 transition-transform duration-300 group-hover:translate-x-1">
+            -&gt;
+          </span>
+        </span>
+      </a>
                 </div>
                 <p
                   className="mt-5 mb-5 text-sm md:text-base text-gray-300"
