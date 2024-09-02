@@ -51,7 +51,7 @@ const QNASection = () => {
     {
       question: "What is your refund policy?",
       answer:
-        "Detailed instructions are included with the bundle, guiding you on how to install and use each resource effectively."
+        "No, we do not provide any refund policy."
     },
   ];
 

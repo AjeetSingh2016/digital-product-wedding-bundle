@@ -17,10 +17,12 @@ export default function Footer({ border = false }: { border?: boolean }) {
           app development, and payment is required in advance. All content on
           our site is our intellectual property. We are not liable for any
           indirect damages, and we reserve the right to update these terms. For
-          questions, contact us at [contact@yourcompany.com].
+          questions, contact us at{" "} 
+          <a className="text-blue-600" href="contactdigiproductmart@gmail.com">contactdigiproductmart@gmail.com</a>
         </p>
         <p className="text-center mt-10">
-          <em className="font-bold">Privacy Policy: </em>We collect personal information to process transactions and communicate with you. Your data is protected by industry-standard security measures and is not sold to third parties. We use cookies to improve site experience and may update this policy periodically. For more details, contact us at [contact@yourcompany.com].
+          <em className="font-bold">Privacy Policy: </em>We collect personal information to process transactions and communicate with you. Your data is protected by industry-standard security measures and is not sold to third parties. We use cookies to improve site experience and may update this policy periodically. For more details, contact us at {" "} 
+          <a className="text-blue-600" href="contactdigiproductmart@gmail.com">contactdigiproductmart@gmail.com</a>
         </p>
       </div>
         

@@ -46,7 +46,7 @@ export default function HeroHome() {
                 >
                   <a
                     className="p-4 px-10 btn group mt-5 mb-4 w-full bg-gradient-to-t from-blue-600 to-blue-500 bg-[length:100%_100%] bg-[bottom] text-white rounded shadow hover:bg-[length:100%_150%] sm:mb-0 sm:w-auto"
-                    href="#0"
+                    href="https://cosmofeed.com/vp/66d61835e12e9a0014f78e0a"
                   >
                     <span className="relative inline-flex items-center text-lg">
                       ⚡Order Now At ₹199{" "}
