@@ -7,8 +7,10 @@ import Avatar04 from "@/public/images/avatar-04.jpg";
 import Avatar05 from "@/public/images/avatar-05.jpg";
 import Avatar06 from "@/public/images/avatar-06.jpg";
 import heroImg from "@/public/assets/hero.webp";
+import OrderButton from "./OrderButton";
 
 export default function HeroHome() {
+  
   return (
     <section className="relative">
       <PageIllustration />
@@ -44,7 +46,7 @@ export default function HeroHome() {
                   data-aos="zoom-y-out"
                   data-aos-delay={450}
                 >
-                  <a
+                  {/* <a
                     className="p-4 px-10 btn group mt-5 mb-4 w-full bg-gradient-to-t from-blue-600 to-blue-500 bg-[length:100%_100%] bg-[bottom] text-white rounded shadow hover:bg-[length:100%_150%] sm:mb-0 sm:w-auto"
                     href="https://cosmofeed.com/vp/66d61835e12e9a0014f78e0a"
                   >
@@ -54,7 +56,8 @@ export default function HeroHome() {
                         -&gt;
                       </span>
                     </span>
-                  </a>
+                  </a> */}
+                  <OrderButton />
                 </div>
                 <p
                   className="mt-5 mb-5 text-sm md:text-base text-black"
