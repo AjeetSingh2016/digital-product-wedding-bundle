@@ -1,10 +1,22 @@
 "use client"; // Marking this as a Client Component
 
-import React from "react";
+import React, { useEffect } from "react";
 import Image from "next/image";
 import thankYouImg from "@/public/assets/grateful.png"; // Replace with the path to your thank you image
 
 const ThankYouPage = () => {
+  useEffect(() => {
+    if (typeof window !== "undefined" && window.fbq) {
+      window.fbq("track", "Purchase", {
+        value: 199, // Example value, replace with your actual value
+        currency: "INR",
+      });
+      console.log("Purchase event tracked successfully.");
+    } else {
+      console.log("Facebook Pixel is not initialized.");
+    }
+  }, []);
+
   const handleRedirect = () => {
     const userAgent = navigator.userAgent || navigator.vendor || window.opera;
 
