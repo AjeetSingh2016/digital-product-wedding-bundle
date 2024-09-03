@@ -121,7 +121,7 @@ export default function FeaturesPlanet() {
                 <span>Originally worth ₹20000 </span>
               </h3>
               <p className="text-[15px] text-gray-400">
-              Now available at just $99; offering significant savings.
+              Now available at just ₹199; offering significant savings.
               </p>
             </article>
             <article>

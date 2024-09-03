@@ -1,6 +1,7 @@
-"use client"; // Marking this as a Client Component
+"use client";
 
 import React, { useEffect } from "react";
+import Script from "next/script";
 import Image from "next/image";
 import thankYouImg from "@/public/assets/grateful.png"; // Replace with the path to your thank you image
 
@@ -21,19 +22,34 @@ const ThankYouPage = () => {
     const userAgent = navigator.userAgent || navigator.vendor || window.opera;
 
     if (/android/i.test(userAgent)) {
-      // Redirect to Gmail's web interface for Android
-      window.location.href = 'https://mail.google.com';
+      window.location.href = "https://mail.google.com";
     } else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
-      // Redirect to a generic email service for iOS
-      window.location.href = 'https://mail.google.com';
+      window.location.href = "https://mail.google.com";
     } else {
-      // Fallback for desktops and other platforms
-      window.location.href = 'https://mail.google.com';
+      window.location.href = "https://mail.google.com";
     }
   };
 
   return (
     <section className="relative py-10 px-4 sm:px-6 bg-white">
+      {/* Include Facebook Pixel Script */}
+      <Script
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
+            !function(f,b,e,v,n,t,s)
+            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window, document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+            fbq('init', '777896934318106'); 
+          `,
+        }}
+      />
+
       <div className="mx-auto max-w-4xl text-center">
         {/* Thank You Message */}
         <div className="mb-8">
@@ -51,7 +67,7 @@ const ThankYouPage = () => {
           <Image
             src={thankYouImg}
             alt="Thank You"
-            className="w-64 h-64 object-cover" // Fixed size: 16rem x 16rem
+            className="w-64 h-64 object-cover"
           />
         </div>
 

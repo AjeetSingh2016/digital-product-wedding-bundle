@@ -66,7 +66,7 @@ export default function HeroHome() {
                 >
                   ⭐⭐⭐⭐⭐ Rated 9.6 out of 10. (100+ Verified Customers)
                 </p>
-                <p>199</p>
+                <h1>199</h1>
               </div>
             </div>
           </div>
