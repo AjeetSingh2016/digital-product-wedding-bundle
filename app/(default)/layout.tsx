@@ -8,7 +8,7 @@ import "aos/dist/aos.css";
 import Header from "@/components/ui/header";
 import Footer from "@/components/ui/footer";
 
-const facebookPixelId = "777896934318106"; // Replace with your actual Facebook Pixel ID
+const facebookPixelId = "320264181165521"; // Replace with your actual Facebook Pixel ID
 
 export default function DefaultLayout({
   children,

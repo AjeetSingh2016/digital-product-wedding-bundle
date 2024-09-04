@@ -45,7 +45,7 @@ const ThankYouPage = () => {
             t.src=v;s=b.getElementsByTagName(e)[0];
             s.parentNode.insertBefore(t,s)}(window, document,'script',
             'https://connect.facebook.net/en_US/fbevents.js');
-            fbq('init', '777896934318106'); 
+            fbq('init', '320264181165521'); 
           `,
         }}
       />
